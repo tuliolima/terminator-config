@@ -1,15 +1,32 @@
 [global_config]
+  inactive_color_offset = 1.0
+  line_height = 1.2
   case_sensitive = False
+  invert_search = True
 [keybindings]
+  new_tab = <Primary>t
+  cycle_next = <Primary>Page_Down
+  cycle_prev = <Primary>Page_Up
+  close_term = <Primary>w
+  copy = <Primary>c
+  paste = <Primary>v
+  page_up = Page_Up
+  page_down = Page_Down
+  line_up = <Primary>Up
+  line_down = <Primary>Down
+  next_tab = <Primary>Tab
+  prev_tab = <Primary><Shift>Tab
 [profiles]
   [[default]]
     visible_bell = True
     background_color = "#002b36"
+    cursor_color = "#839496"
     font = Ubuntu Mono 15
     foreground_color = "#839496"
     show_titlebar = False
     scrollback_lines = 5000
     use_system_font = False
+    use_theme_colors = True
 [layouts]
   [[default]]
     [[[window0]]]
